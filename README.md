@@ -15,8 +15,8 @@ $ zig build run
 $ zig build run-diamond
 
 # release:
-$ zig build run -Doptimize=ReleaseSafe
-$ zig build run-diamond -Doptimize=ReleaseSafe
+$ zig build run --release=fast
+$ zig build run-diamond --release=fast
 ```
 
 ## LICENSE
