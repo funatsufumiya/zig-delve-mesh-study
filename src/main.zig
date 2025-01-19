@@ -64,7 +64,7 @@ pub fn registerModule() !void {
 fn on_init() !void {
     debug.log("Mesh example module initializing", .{});
 
-    graphics.setClearColor(colors.examples_bg_light);
+    graphics.setClearColor(colors.black);
 
     // Make a perspective camera, with a 90 degree FOV
     camera = cam.Camera.initThirdPerson(90.0, 0.01, 50.0, 5.0, Vec3.up);
