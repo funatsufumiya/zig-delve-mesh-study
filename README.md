@@ -1,6 +1,7 @@
 # zig-delve-mesh-study
 
 ![screenshot](screenshot.png)
+![screenshot2](screenshot2.png)
 
 Tiny example of using [delve](https://github.com/Interrupt/delve-framework) as external library.
 
@@ -11,9 +12,11 @@ Tested with Zig 0.13.0.
 ```bash
 # debug:
 $ zig build run
+$ zig build run-diamond
 
 # release:
 $ zig build run -Doptimize=ReleaseSafe
+$ zig build run-diamond -Doptimize=ReleaseSafe
 ```
 
 ## LICENSE
